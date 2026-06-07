@@ -139,6 +139,27 @@ nav ul.mainMenu li a:hover {
 
 .wordBreak {word-break: break-all;}
 
+/* ボタン型リンクデザイン */
+
+a.linkBt {
+	padding: 0.5rem;
+	margin:0 0.1rem 0.6rem;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	background-color: #ff6f61;
+	font-weight: bold;
+	border: solid 2px #ff6f61;
+	border-radius: 4px;
+}
+
+a:visited.linkBt {color: #fffdf9;}
+
+a:hover.linkBt {
+	color: #ff6f61;
+	background-color: #fffdf9;
+}
+
 /* トップに戻る画像ボタンのデザイン */
 
 article.topScroll {
