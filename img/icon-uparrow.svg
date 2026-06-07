@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--?xml version="1.0" encoding="utf-8"?-->
+
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="_x32_"
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   style="width: 256px; height: 256px; opacity: 1;"
+   xml:space="preserve"
+   sodipodi:docname="icon-uparrow.svg"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"><metadata
+     id="metadata13"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs11" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1084"
+     inkscape:window-height="761"
+     id="namedview9"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="-62.915254"
+     inkscape:cy="97.086663"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="_x32_" /><style
+     type="text/css"
+     id="style2">
+	.st0{fill:#4B4B4B;}
+</style><g
+     id="g6"
+     style="fill:#ffffff"
+     transform="matrix(0.48326361,0,0,0.48326361,133.53879,133.36926)"><g
+       id="g844"><circle
+         r="518.50848"
+         transform="matrix(1,0,0,-1,-3.2542725,-125.83051)"
+         cy="-381.83051"
+         cx="259.25427"
+         id="path820"
+         style="opacity:1;fill:#ff6f61;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" /><polygon
+         id="polygon4"
+         style="fill:#ffffff"
+         points="227.334,499.258 284.675,499.258 284.675,122.495 471.462,309.291 512,268.753 256,12.742 0,268.753 40.55,309.291 227.334,122.495 "
+         class="st0"
+         transform="matrix(0.91231932,0,0,0.91231932,22.446254,22.446249)" /></g></g></svg>
