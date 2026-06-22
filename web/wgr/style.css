@@ -1,0 +1,316 @@
+/* 全体設定 */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #2d2d2d;
+	background: #fff;
+	font-size: 13px;
+	font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+h1 {font-size: 2.1em;}
+
+h2 {
+	margin-bottom: 20px;
+	padding:10px 0;
+	font-size: 2em;
+	color: #2d2d2d;
+}
+
+h3 {
+	color: #2d2d2d;
+	margin:0 0 10px;
+}
+
+a {color: #ff62af;}
+
+a:visited {color: #7984ff;}
+
+a:hover {
+	color: #fff;
+	background-color: #ff62af;
+}
+
+ul,ol {margin:0 0 15px;}
+
+ul li,ol li {
+	margin: 0 24px;
+	list-style-type: disc;
+}
+
+ul li.newsDate {list-style-type: none;}
+
+ul li.newsDate:first-line {font-weight: bold;}
+
+p {margin: 10px 0 30px 10px;}
+
+p.iconBnr img {margin-right: 5px;}
+
+/* ヘッダー・コンテンツデザイン */
+
+header {
+	margin: 0;
+	padding: 15px;
+	height: 170px;
+	background: url(img/header.jpg);
+	background-size: 600px 200px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 0;}
+
+header h1 {
+	margin: 4% auto;
+	height: 78%;
+	text-align: center;
+}
+
+
+header h1 img {
+	height: 100%;
+}
+
+header,article {
+	line-height: 2em;
+	background-color: #fff;
+}
+
+article {
+	margin: 50px auto;
+	width:85%;
+}
+
+/* 楽曲・写真コンテンツレイアウト用CSS */
+
+div.objectL {
+	margin: 0 auto 60px;
+	min-height: 400px;
+	clear: both}
+
+div.objectL div {
+	margin-bottom: 40px;
+	float: left;
+	}
+
+div.objectTxt {
+	padding: 15px 5% 20px;
+}
+
+div.objectS {
+	margin: 0 8% 60px auto;
+	width: 300px;
+	float: left; 
+}
+
+/* YouTube動画埋め込み枠のレスポンシブCSS */
+
+div.movie {
+	width: 100%;
+	max-width: 560px;
+	position:relative;
+}
+
+div.movie::before {
+	padding-top: 56.25%;
+	width: 100%;
+	content: "";
+	display: block;
+}
+
+div.movie iframe{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*section {margin-bottom: 50px;}*/
+
+footer {
+	margin-top: 250px;
+	padding:15px 0;
+	color: #fff;
+	background-color: #2d2d2d;
+	text-align: center;
+	clear: both;
+}
+
+footer p {margin:0 0 5px;}
+
+/* 回り込みのクリア */
+
+.clear {clear: both;}
+
+/* ナビゲーション・ドロワーメニューのデザイン */
+
+div#drawer {
+	position: fixed;
+	right: 15px;
+	z-index: 100;
+	} 
+
+.navUnshown {display: none;}
+
+/* ハンバーガーアイコンのスペース */
+
+label#navOpen {
+	display: inline-block;
+	width: 30px;
+	height: 22px;
+	vertical-align: middle;
+}
+
+/* ハンバーガーアイコン */
+
+label#navOpen span,
+label#navOpen span::before,
+label#navOpen span::after {
+	position: absolute;
+	height: 2px;
+	width: 30px;
+	border-radius: 3px;
+	background: #2d2d2d;
+	display: block;
+	content: '';
+	cursor: pointer;
+}
+
+label#navOpen span::before {bottom: -8px;}
+label#navOpen span::after {bottom: -16px;}
+
+/* メニューを閉じる時のスタイル */
+
+label#navClose {
+	display: none;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0;
+	transition: .3s ease-in-out;
+}
+
+/* メニューの見た目 */
+
+nav#navContent {
+	overflow: auto;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 9999;
+	width: 90%;
+	max-width: 300px;
+	height: 100%;
+	background: #2d2d2d;
+	transition: .3s ease-in-out;
+	transform: translateX(100%);
+
+}
+
+nav#navContent li:first-child {padding:10px 0 10px 120px;}
+
+nav#navContent li {
+	margin: 0;
+	border-bottom: solid 1px #808080;
+	color: #fff;}
+
+nav#navContent li a {
+	display: block;
+	padding:10px 15px;
+	text-decoration: none;
+}
+
+nav#navContent li a:hover {color: #fff;}
+
+input#navInput:checked ~ label#navClose {
+	display: block;
+	opacity: .5;
+}
+
+input#navInput:checked ~ #navContent {
+	transform: translateX(0%);
+}
+
+/* ボタン・特別なリンクのデザイン */
+
+a.pointBtn {
+	padding: 15px 35px;
+	text-decoration: none;
+}
+
+form button.formBtn,
+form button.resetBtn {
+	padding: 20px 35px;
+	border: none;
+}
+
+form button.resetBtn {
+	color: #2d2d2d;
+	background-color: #ccc;}
+
+a.pointBtn,
+form button.formBtn,
+form button.resetBtn {
+	display: inline-block;
+	margin: 10px 5px;
+	border-radius: 40px;
+	font-size: 1.1em;
+	font-weight: bold;
+	box-shadow:0px 12px 24px -5px #cecece;
+	transition: all .3s;
+}
+
+a.pointBtn,form button.formBtn {
+	color: #fff;
+	background-color: #ff62af;
+	text-align: center;
+}
+
+a.pointBtn:hover,
+form button.formBtn:hover,
+form button.resetBtn:hover {
+	box-shadow: none;
+	transform: scale(0.9);
+}
+
+/* フォームのデザイン */
+
+form input,select,textarea {
+	margin: 5px;
+	padding: 5px 10px;
+	border: solid 1px #2d2d2d;
+	font-size: 16pt;}
+
+form input,select {height: 38px;}
+
+form input.formCheck{
+	height: 15px;
+}
+
+/* 注意用赤文字 */
+.point {
+	color: #ec4483;
+	font-weight: bold;}
+
+/*header タブレット・PC表示*/
+
+@media only screen and (min-width: 768px) {
+	header {
+		height: 50vh;
+		background-size: 100% auto;
+	}
+}
+
+@media only screen and (min-height: 1024px) {
+	header {
+		height: 20vh;
+		background-size: 100% auto;
+	}
+}
